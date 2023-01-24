@@ -1,0 +1,30 @@
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.face{
+    width: 520px;
+    height: 400px;
+}
+.projct{
+    width: 150px;
+    height: 100px;
+}
+.icon{
+    font-size: 10px;
+    background-color: rgb(167, 165, 165);
+}
+.icooon{
+    font-size: 12px;
+    background-color: rgb(158, 155, 155);
+}
+footer p{
+    justify-items: center;
+}
+.item{
+    width: 337px;
+    height: 250px;
+}
+.creat{
+    border-top: 1px solid lightblue;
+}

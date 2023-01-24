@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overview</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="image/logo.jpg" class="logo rounded-circle me-2" alt="">portfolio
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <header class="container text-black">
+        <div class="row mt-4">
+
+            <script>
+                for(i=1; i<=12 ; i++){
+                    document.write(`
+                    <div class="col-lg-4 col-md-6">
+                <div class="card px-2 pt-2 mb-1">
+                    <div class="badge bg-primary position-absolute mt-2 ms-2 text-capitalize"><a href="item.html" class="btn btn-primary p-0 ">tag</a></div>
+                    <img src="image/item${i}.jpg" class="item img-thumbnail" alt="">
+                    <h4 class="text-capitalize mt-2">portfolio item heading</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio aperiam ea quidem, error perspiciatis consequuntur quia optio. Nemo, doloremque porro.</p>
+                    <a href="item.html" class="text-capitalize btn btn-primary">see item</a>
+                    <small class="creat bg-light mt-1 ">Created DD-MM-YYY</small>
+                </div><!-- card -->
+            </div><!-- col --> 
+            `)
+                };
+            </script>
+           
+                    
+
+        </div><!-- row -->
+      </header>
+
+      <footer class=" bg-light text-dark p-5 mt-2 text-center">
+        <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-6">
+                <div class="d-flex p-1"> 
+                    <i class="fa-solid fa-code text-white p-2 me-2  rounded-circle  icon"></i><h6>code</h6> <br>
+                    </div><!-- 1 -->
+                    <div class="d-flex my-1">
+                        <i class="fa-brands fa-github text-white p-2 me-2  rounded-circle  icooon"></i> <a href="#">GitHup</a>
+                    </div><!-- 2 -->
+                    <div class="d-flex my-1">
+                        <i class="fa-brands fa-codepen text-white p-2 me-2  rounded-circle  icooon"></i> <a href="#">CodePen</a>
+                    </div><!-- 3 -->
+                    <div class="d-flex my-1 pb-5">
+                        <i class="fa-brands fa-stack-overflow text-white p-2 me-2  rounded-circle icooon"></i> <a href="#">Stack Overflow</a>
+                    </div><!-- 4 -->
+               </div><!-- col1 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="d-flex p-1"> 
+                    <i class="fa-solid fa-paint-brush text-white p-2 me-2  rounded-circle  icon"></i><h6>Design</h6> <br>
+                    </div><!-- 1 -->
+                <div class="d-flex p-1"> 
+                    <i class="fa-solid fa-behance text-white p-2 me-2  rounded-circle  icon"></i><a href="#">Bhance</a> <br>
+                    </div><!-- 2 -->
+                    <div class="d-flex my-1 pb-5">
+                        <i class="fa-brands fa-dribbble text-white p-2 me-2  rounded-circle  icooon"></i> <a href="#">Dribbble</a>
+                    </div><!-- 3 -->
+               </div><!-- col2 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="d-flex p-1"> 
+                    <i class="fa-solid fa-image text-white p-2 me-2  rounded-circle  icon"></i><h6>Photography</h6> <br>
+                    </div><!-- 1 -->
+                <div class="d-flex p-1"> 
+                    <i class="fa-brands fa-flickr  text-white p-2 me-2  rounded-circle  icon"></i><a href="#">Flicker</a> <br>
+                    </div><!-- 2 -->
+                    <div class="d-flex my-1 pb-5">
+                        <i class="fa-brands fa-instagram text-white p-2 me-2  rounded-circle  icooon"></i> <a href="#">Instgrame</a>
+                    </div><!-- 3 -->
+               </div><!-- col3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="d-flex p-1"> 
+                    <i class="fa-solid fa-video text-white p-2 me-2  rounded-circle  icon"></i><h6>Video</h6> <br>
+                    </div><!-- 1 -->
+                <div class="d-flex p-1"> 
+                    <i class="fa-brands fa-youtube text-white p-2 me-2  rounded-circle  icon"></i><a href="#">Youtube</a> <br>
+                    </div><!-- 2 -->
+                    <div class="d-flex my-1 pb-5">
+                        <i class="fa-brands fa-vimeo text-white p-2 me-2  rounded-circle  icooon"></i> <a href="#">Vimeo</a>
+                    </div><!-- 3 -->
+               </div><!-- col4 -->
+
+
+
+        <div class="  "><i class="fa-solid fa-copyright me-1 "></i>
+ 2022 Fatma Abo-elata. All rights reserved.</div>
+            </div>
+        </div><!-- container -->
+      </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

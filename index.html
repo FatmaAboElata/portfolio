@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="image/logo.jpg" class="logo rounded-circle me-2" alt="">portfolio
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="overview.html">portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <header class="container text-black">
+        <div class="row">
+        <div>
+            <p class="display-4 mt-3  text-capitalize">fatma rashid abo-elata <br><span class="text-muted text-capitalize fs-1">full stack</span></p>
+        </div>
+
+        <div class="col-md-6  ">
+            <img src="image/face.jpg" class="face rounded my-1 img-thumbnail" alt="">
+        </div><!-- left -->
+        <div class="col-md-6">
+           <h4 class=" text-capitalize mt-1 ">about</h4>
+           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, reprehenderit. Cupiditate quae distinctio officia, perferendis iste quasi error quam, nihil nemo, perspiciatis in. Nihil voluptas incidunt laudantium. Libero enim non officia laborum, aspernatur tempora autem ex quo vitae rem saepe iure sit suscipit qui iste porro ab. Perspiciatis ipsam quae quia. Quos, iure, amet tempore qui maiores deleniti eum quisquam eligendi natus ad quasi deserunt culpa reprehenderit commodi! Unde, aliquid.</p><br>
+           <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dignissimos reprehenderit harum fugiat, perspiciatis obcaecati autem, voluptatibus magnam veniam consequatur et blanditiis unde ducimus, numquam iste excepturi hic earum mollitia delectus magni maiores! Optio, possimus rem tempore suscipit officiis iste.</p>
+        </div><!-- right -->
+        
+        </div><!-- row -->
+      </header>
+
+      <section class="feature container text-black">
+        <h5 class="text-capitalize mt-4 mb-2 fs-2">featured projet</h5>
+        <div class="row">
+
+            <script>
+                for(x=1 ; x<=4; x++){
+                    document.write(`
+                    <div class="col-lg-3 col-md-6 my-1">
+                <div class="card p-1">
+                    <img src="image/project${x}.jpg" class="project" alt="">
+                </div>
+                <div class="pb-4">
+                    <small class="text-muted ">portfolio item heading</small>
+                </div>
+                
+            </div><!-- col -->
+                    `)
+                };
+            </script>
+            
+            
+        
+        </div><!-- row -->
+      </section><!-- feature -->
+
+      <section class="test container text-black">
+        <h5 class="text-capitalize mt-4 mb-2 fs-2">testimonials</h5>
+        <div class="row">
+
+            <div class="col-md-4 col-sm-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium molestiae neque minima beatae itaque repellendus magni ut, autem perferendis harum tempore! Odit, facilis. Doloremque blanditiis consequuntur beatae laudantium reiciendis fugiat!</p>
+                <div class="pb-4">
+                    <small class="text-muted text-capitalize">_fatma abo-elata</small>
+                </div><!-- small -->
+            </div><!-- col -->
+            <div class="col-md-4 col-sm-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium molestiae neque minima beatae itaque repellendus magni ut, autem perferendis harum tempore! Odit, facilis. Doloremque blanditiis consequuntur beatae laudantium reiciendis fugiat!</p>
+                <div class="pb-4">
+                    <small class="text-muted text-capitalize">_fatma abo-elata</small>
+                </div><!-- small -->
+            </div><!-- col -->
+            <div class="col-md-4 col-sm-12">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium molestiae neque minima beatae itaque repellendus magni ut, autem perferendis harum tempore! Odit, facilis. Doloremque blanditiis consequuntur beatae laudantium reiciendis fugiat!</p>
+                <div class="pb-4">
+                    <small class="text-muted text-capitalize">_fatma abo-elata</small>
+                </div><!-- small -->
+            </div><!-- col -->
+
+        </div>
+      </section><!-- test -->
+
+      <section class="contact container text-black">
+        <h5 class="text-capitalize mt-4 mb-2 fs-2">contact me</h5>
+        <div class="row">
+
+            <div class="col-md-6">
+                <label for="name" class="text-capitalize mb-1">name</label>
+                <input type="text" placeholder="Enter your name" id="name" class="form-control form-control-sm mb-2">
+                <label for="email" class="text-capitalize mb-1">email</label>
+                <input type="email" id="email" placeholder="Enter your email" class="form-control form-control-sm mb-2">
+            </div><!-- col -->
+            <div class="col-md-6">
+                <label for="comment" class="text-capitalize my-1">massege</label>
+                <textarea name="" id="comment" placeholder="Enter your message"  cols="40" class="form-control form-control-lg mb-1"></textarea>
+            </div><!-- col -->
+                <div>
+                    <a href="#" class="btn btn-primary p-1 my-1">Send Messaga</a>
+                </div>    
+
+        </div><!-- row -->
+      </section><!-- contact -->
+
+      <footer class=" bg-light text-dark p-5 mt-2 text-center">
+        <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-6">
+                <div class="d-flex p-1"> 
+                    <i class="fa-solid fa-code text-white p-2 me-2  rounded-circle  icon"></i><h6>code</h6> <br>
+                    </div><!-- 1 -->
+                    <div class="d-flex my-1">
+                        <i class="fa-brands fa-github text-white p-2 me-2  rounded-circle  icooon"></i> <a href="#">GitHup</a>
+                    </div><!-- 2 -->
+                    <div class="d-flex my-1">
+                        <i class="fa-brands fa-codepen text-white p-2 me-2  rounded-circle  icooon"></i> <a href="#">CodePen</a>
+                    </div><!-- 3 -->
+                    <div class="d-flex my-1 pb-5">
+                        <i class="fa-brands fa-stack-overflow text-white p-2 me-2  rounded-circle icooon"></i> <a href="#">Stack Overflow</a>
+                    </div><!-- 4 -->
+               </div><!-- col1 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="d-flex p-1"> 
+                    <i class="fa-solid fa-paint-brush text-white p-2 me-2  rounded-circle  icon"></i><h6>Design</h6> <br>
+                    </div><!-- 1 -->
+                <div class="d-flex p-1"> 
+                    <i class="fa-solid fa-behance text-white p-2 me-2  rounded-circle  icon"></i><a href="#">Bhance</a> <br>
+                    </div><!-- 2 -->
+                    <div class="d-flex my-1 pb-5">
+                        <i class="fa-brands fa-dribbble text-white p-2 me-2  rounded-circle  icooon"></i> <a href="#">Dribbble</a>
+                    </div><!-- 3 -->
+               </div><!-- col2 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="d-flex p-1"> 
+                    <i class="fa-solid fa-image text-white p-2 me-2  rounded-circle  icon"></i><h6>Photography</h6> <br>
+                    </div><!-- 1 -->
+                <div class="d-flex p-1"> 
+                    <i class="fa-brands fa-flickr  text-white p-2 me-2  rounded-circle  icon"></i><a href="#">Flicker</a> <br>
+                    </div><!-- 2 -->
+                    <div class="d-flex my-1 pb-5">
+                        <i class="fa-brands fa-instagram text-white p-2 me-2  rounded-circle  icooon"></i> <a href="#">Instgrame</a>
+                    </div><!-- 3 -->
+               </div><!-- col3 -->
+            <div class="col-lg-3 col-md-6">
+                <div class="d-flex p-1"> 
+                    <i class="fa-solid fa-video text-white p-2 me-2  rounded-circle  icon"></i><h6>Video</h6> <br>
+                    </div><!-- 1 -->
+                <div class="d-flex p-1"> 
+                    <i class="fa-brands fa-youtube text-white p-2 me-2  rounded-circle  icon"></i><a href="#">Youtube</a> <br>
+                    </div><!-- 2 -->
+                    <div class="d-flex my-1 pb-5">
+                        <i class="fa-brands fa-vimeo text-white p-2 me-2  rounded-circle  icooon"></i> <a href="#">Vimeo</a>
+                    </div><!-- 3 -->
+               </div><!-- col4 -->
+
+
+
+        <div class="  "><i class="fa-solid fa-copyright me-1 "></i>
+ 2022 Fatma Abo-elata. All rights reserved.</div>
+            </div>
+        </div><!-- container -->
+      </footer>
+      
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
